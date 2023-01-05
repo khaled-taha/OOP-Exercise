@@ -114,7 +114,7 @@ public class Date {
     }
 
     public boolean isMagic(){
-        String date = "" + this.day + this.month + this.year;
+        String date = "" + this.day + "" + this.month + "" + this.year;
         for(int i  = 0; i < date.length() - 1; i++){
             if(date.charAt(i) != date.charAt(i + 1))
                 return false;
