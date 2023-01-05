@@ -2,7 +2,12 @@
 
 
  Polymorphism is one of the core concepts of OOP.
+ 
 • The word is derived from the Greek words:: Poly (Many), Morphs (Forms) [Many Forms]
+
 • Meaning:
+
 ➢Many forms of the same thing.
+
 ➢We can perform a single task in different ways
+
