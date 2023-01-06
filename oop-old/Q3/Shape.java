@@ -1,4 +1,3 @@
-package inheritance.subInh;
 
 public abstract class Shape {
     private String color;
