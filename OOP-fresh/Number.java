@@ -1,6 +1,7 @@
 public class Number {
     private int num;
     private static int even_count = 0;
+    private boolean odd = true;
 
     public Number(int num) {
         this.num = num;
@@ -48,13 +49,18 @@ public class Number {
 //    }
 
     public static void main(String[] args) {
-        Number number = new Number(123);
-        System.out.println(number.sumOfDigits()); // 6
 
-        Number number2 = new Number(12);
-        Number number3 = new Number(10);
-        Number number4 = new Number(11);
+        Number number = new Number(1);
+        Number number2 = new Number(2);
+        Number number3 = new Number(2);
+        Number number4 = new Number(2);
 
-        System.out.println(Number.getEven_count()); // 2
+        System.out.println(Number.even_count); // 3
+        number.setNum(2); // 4
+        System.out.println(Number.even_count); // 4
+        number4.setNum(1); // 3
+        System.out.println(Number.even_count); // 3
+        number4.setNum(2); // 4
+        System.out.println(Number.even_count); // 4
     }
 }
