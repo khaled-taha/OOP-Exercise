@@ -1,4 +1,3 @@
-package inheritance.subInh;
 
 public class Circle extends Shape {
     private double radius;
