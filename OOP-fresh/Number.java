@@ -23,14 +23,16 @@ public class Number {
     public static int getEven_count() {
         return even_count;
     }
+    
+    private void even_counter(){
+        if(num % 2 == 0 && odd) {
+                even_count++;
+                this.odd = false;
 
-    public int sumOfDigits(){
-        String num = String.valueOf(this.num);
-        int sum = 0;
-        for(int i = 0; i < num.length(); i++){
-            sum += (num.charAt(i) - '0'); // ASCII for [0 : 9] = [48 : 57]
+        }else if(!odd){
+                even_count--;
+                this.odd = true;
         }
-        return sum;
     }
 
     // Another Solution with integer.
