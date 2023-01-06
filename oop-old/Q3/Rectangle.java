@@ -1,4 +1,3 @@
-package inheritance.subInh;
 
 import inheritance.subInh.Shape;
 
